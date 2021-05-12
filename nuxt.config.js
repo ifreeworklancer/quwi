@@ -46,7 +46,8 @@ export default {
 
   auth: {
     strategies: {
-      local: {
+      local: false,
+      auth: {
         endpoints: {
           login: { url: '/token', method: 'post', propertyName: 'data' },
         },
