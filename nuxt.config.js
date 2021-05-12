@@ -41,22 +41,22 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURI: 'https://stage.api.mamonto.com',
+    baseURL: 'https://stage.api.mamonto.com',
   },
 
   auth: {
+    redirect: false,
     strategies: {
-      local: false,
-      auth: {
+      local: {
         endpoints: {
-          login: { url: '/token', method: 'post', propertyName: 'data' },
+          login: {
+            url: '/token',
+            method: 'POST',
+            propertyName: 'access_token',
+          },
+          user: false,
         },
-        tokenRequired: true,
-        tokenType: 'Bearer',
       },
-    },
-    redirect: {
-      login: '/',
     },
   },
 
