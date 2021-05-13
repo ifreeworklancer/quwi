@@ -3,6 +3,9 @@
     <div class="container">
       <el-row class="app-header-row">
         <el-col style="width: auto">
+          <NuxtLink to="/" class="app-header_logo">Logo</NuxtLink>
+        </el-col>
+        <el-col style="width: auto">
           <ProfileController />
         </el-col>
       </el-row>
@@ -29,8 +32,31 @@ export default {}
 
   &-row {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+
+    &::before,
+    &::after {
+      content: '';
+      display: none;
+    }
+
+    .el-col {
+      float: none;
+    }
+  }
+
+  &_logo {
+    color: #909399;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+      color: lighten(#909399, 15%);
+    }
   }
 }
 </style>
