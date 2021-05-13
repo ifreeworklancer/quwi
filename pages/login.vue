@@ -14,7 +14,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  middleware: 'login',
+}
 </script>
 
 <style lang="scss">

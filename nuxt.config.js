@@ -54,8 +54,11 @@ export default {
             method: 'POST',
             propertyName: 'access_token',
           },
+          logout: false,
           user: false,
         },
+        tokenRequired: true,
+        tokenType: 'Bearer',
       },
     },
   },
@@ -63,5 +66,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/],
+  },
+
+  router: {
+    middleware: ['authentication'],
   },
 }
