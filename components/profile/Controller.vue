@@ -10,8 +10,8 @@
 <script>
 export default {
   methods: {
-    logout() {
-      this.$auth.logout()
+    async logout() {
+      await this.$auth.logout()
     },
     handleCommand(method) {
       this[method]()

@@ -57,7 +57,6 @@ export default {
             .then(({ data }) => {
               this.$auth.setToken('local', data.access_token)
               this.$auth.setRefreshToken('local', data.refresh_token)
-              this.$router.push('/')
               this.isLoading = false
             })
             .catch(() => {

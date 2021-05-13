@@ -1,6 +1,6 @@
 export const actions = {
-  login({ commit }, data) {
-    return this.$auth.loginWith('local', {
+  async login({ commit }, data) {
+    return await this.$auth.loginWith('local', {
       data,
     })
   },
