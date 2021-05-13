@@ -15,6 +15,7 @@
 
 <script>
 export default {
+  layout: 'auth',
   auth: 'guest',
 }
 </script>
