@@ -77,4 +77,10 @@ export default {
   router: {
     middleware: ['auth'],
   },
+
+  loading: {
+    color: '#409EFF',
+    background: '#909399',
+    height: '2px',
+  },
 }
