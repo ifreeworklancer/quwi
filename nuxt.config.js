@@ -2,10 +2,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  generate: {
-    exclude: [/^\/dynamic-route\//],
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'quwi',
@@ -79,6 +75,7 @@ export default {
 
   router: {
     middleware: ['auth'],
+    base: '/quwi/',
   },
 
   loading: {
