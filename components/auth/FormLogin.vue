@@ -25,9 +25,9 @@ export default {
       formData: {
         username: '',
         password: '',
-        client_id: 'frontend_app',
-        client_secret: 'secret',
-        grant_type: 'password',
+        client_id: this.$config.client_id,
+        client_secret: this.$config.client_secret,
+        grant_type: this.$config.grant_type,
       },
       formRules: {
         username: [

@@ -41,7 +41,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://stage.api.mamonto.com',
+    baseURL: process.env.BASE_URL,
   },
 
   auth: {
@@ -82,5 +82,11 @@ export default {
     color: '#409EFF',
     background: '#909399',
     height: '2px',
+  },
+
+  publicRuntimeConfig: {
+    client_id: process.env.FRONTEND_APP,
+    client_secret: process.env.CLIENT_SECRET,
+    grant_type: process.env.GRANT_TYPE,
   },
 }
