@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc21bbd5-cd11-4976-a6ee-9bc811b95172" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sQmiF6Y96DVXtzJzbiwRQbL3oZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\projects\quwi\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\quwi\assets\css" />
+      <recent name="D:\projects\quwi\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc21bbd5-cd11-4976-a6ee-9bc811b95172" name="Default Changelist" comment="" />
+      <created>1620813312736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620813312736</updated>
+      <workItem from="1620813319112" duration="16590000" />
+      <workItem from="1620886602285" duration="24168000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: initialization nuxt app">
+      <created>1620813767399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620813767399</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ci: change scripts&#10;&#10;Changed scripts from nuxt to node --max-old-space-size=4096 for correctly server working">
+      <created>1620814942491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620814942491</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: created template page login">
+      <created>1620816787831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620816787831</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(login): added method and handle login">
+      <created>1620830963503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620830963503</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(router): added authentication and login middleware">
+      <created>1620889720887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620889720887</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(plugins): added error auth plugin">
+      <created>1620892560239</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620892560239</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(plugins): added axios token plugin&#10;&#10;Axios token plugin set headers Authorization if token exists">
+      <created>1620893057438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620893057438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(pages): created template collection page">
+      <created>1620895141181</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620895141181</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(components): added app header component">
+      <created>1620903198959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620903198959</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(layout): added auth layout">
+      <created>1620903625752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620903625752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(auth): replaced middleware to auth option">
+      <created>1620904053097</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620904053097</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(collection): added method create collection">
+      <created>1620907148612</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620907148612</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(header): added logo">
+      <created>1620907709562</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620907709562</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor(collection): change text form button">
+      <created>1620907896279</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620907896279</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix(axios): replace header authorization type Bear to Bearer">
+      <created>1620908130428</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620908130428</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix(layout): added error layout">
+      <created>1620909337217</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620909337217</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactor: added variables to environment">
+      <created>1620912456780</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620912456780</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: added github deployment">
+      <created>1620912755641</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620912755641</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ci: remove option ssr">
+      <created>1620913125934</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620913125934</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ci: added generate option">
+      <created>1620913296763</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620913296763</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ci: remove router base">
+      <created>1620913582973</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620913582973</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ci: remove github pages">
+      <created>1620913786575</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1620913786575</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ci: added push dir">
+      <created>1620914813641</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1620914813641</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ci: change push dir branch">
+      <created>1620915319595</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1620915319595</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: initialization nuxt app" />
+    <MESSAGE value="ci: change scripts&#10;&#10;Changed scripts from nuxt to node --max-old-space-size=4096 for correctly server working" />
+    <MESSAGE value="feat: created template page login" />
+    <MESSAGE value="feat(login): added method and handle login" />
+    <MESSAGE value="feat(router): added authentication and login middleware" />
+    <MESSAGE value="feat(plugins): added error auth plugin" />
+    <MESSAGE value="feat(plugins): added axios token plugin&#10;&#10;Axios token plugin set headers Authorization if token exists" />
+    <MESSAGE value="feat(pages): created template collection page" />
+    <MESSAGE value="feat(components): added app header component" />
+    <MESSAGE value="feat(layout): added auth layout" />
+    <MESSAGE value="feat(auth): replaced middleware to auth option" />
+    <MESSAGE value="feat(collection): added method create collection" />
+    <MESSAGE value="feat(header): added logo" />
+    <MESSAGE value="refactor(collection): change text form button" />
+    <MESSAGE value="fix(axios): replace header authorization type Bear to Bearer" />
+    <MESSAGE value="fix(layout): added error layout" />
+    <MESSAGE value="refactor: added variables to environment" />
+    <MESSAGE value="feat: added github deployment" />
+    <MESSAGE value="ci: remove option ssr" />
+    <MESSAGE value="ci: added generate option" />
+    <MESSAGE value="ci: remove router base" />
+    <MESSAGE value="ci: remove github pages" />
+    <MESSAGE value="ci: added push dir" />
+    <MESSAGE value="ci: change push dir branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: change push dir branch" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620887659453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620887659453" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1620911494895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620911494895" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1620911494895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620911494895" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1620911494894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620911494894" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1620911494895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620911494895" />
+    <state x="552" y="253" width="816" height="557" key="Vcs.Push.Dialog.v2" timestamp="1620915339952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" width="816" height="557" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620915339952" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1620829879702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620829879702" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1620816638688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620816638688" />
+    <state x="681" y="308" key="git4idea.merge.GitPullDialog" timestamp="1620915335761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="308" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620915335761" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1620828245736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620828245736" />
+  </component>
+</project>
