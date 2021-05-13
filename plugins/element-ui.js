@@ -10,6 +10,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Message,
+  Notification,
 } from 'element-ui'
 
 Vue.use(Row)
@@ -23,3 +24,4 @@ Vue.use(DropdownMenu)
 Vue.use(DropdownItem)
 
 Vue.prototype.$message = Message
+Vue.prototype.$notify = Notification

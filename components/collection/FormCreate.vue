@@ -19,12 +19,16 @@
       </el-form-item>
     </div>
     <div class="form-footer">
-      <el-button type="primary" :loading="isLoading"> Create </el-button>
+      <el-button type="primary" :loading="isLoading" @click.prevent="sendForm">
+        Create
+      </el-button>
     </div>
   </el-form>
 </template>
 
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   data() {
     return {
@@ -34,7 +38,7 @@ export default {
         description: '',
       },
       formRules: {
-        username: [
+        title: [
           {
             required: true,
             message: 'Please input Title',
@@ -43,6 +47,39 @@ export default {
         ],
       },
     }
+  },
+  methods: {
+    ...mapActions({ createCollection: 'collection/create' }),
+    sendForm() {
+      this.isLoading = true
+      this.$refs.formCollectionCreate.validate((valid) => {
+        if (valid) {
+          this.createCollection(this.formData)
+            .then(() => {
+              this.resetFormData()
+              this.$notify({
+                title: 'Success',
+                message: 'Collection created successful',
+                type: 'success',
+              })
+              this.isLoading = false
+            })
+            .catch(() => {
+              this.$message({
+                type: 'error',
+                message: 'Oops, something went wrong!',
+                duration: 5000,
+              })
+              this.isLoading = false
+            })
+        } else {
+          this.isLoading = false
+        }
+      })
+    },
+    resetFormData() {
+      this.$refs.formCollectionCreate.resetFields()
+    },
   },
 }
 </script>

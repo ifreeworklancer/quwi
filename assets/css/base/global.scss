@@ -68,9 +68,13 @@ html {
 }
 
 .page-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 25px;
+
+  @media (min-width: 576px) {
+    font-size: 2.5rem;
+  }
 }
 
 .form {
