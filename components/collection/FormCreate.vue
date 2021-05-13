@@ -20,7 +20,7 @@
     </div>
     <div class="form-footer">
       <el-button type="primary" :loading="isLoading" @click.prevent="sendForm">
-        Create
+        Submit
       </el-button>
     </div>
   </el-form>
