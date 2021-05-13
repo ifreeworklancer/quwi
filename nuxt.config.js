@@ -45,7 +45,12 @@ export default {
   },
 
   auth: {
-    redirect: false,
+    redirect: {
+      login: '/login',
+      logout: '/login',
+      callback: '/login',
+      home: '/',
+    },
     strategies: {
       local: {
         endpoints: {
@@ -57,6 +62,8 @@ export default {
           logout: false,
           user: false,
         },
+        tokenRequired: true,
+        tokenType: 'Bearer',
       },
     },
     plugins: ['~/plugins/error-auth.js', '~/plugins/axios-token.js'],
@@ -68,6 +75,6 @@ export default {
   },
 
   router: {
-    middleware: ['authentication'],
+    middleware: ['auth'],
   },
 }

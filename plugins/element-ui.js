@@ -1,5 +1,16 @@
 import Vue from 'vue'
-import { Row, Col, Button, Form, FormItem, Input, Message } from 'element-ui'
+import {
+  Row,
+  Col,
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Message,
+} from 'element-ui'
 
 Vue.use(Row)
 Vue.use(Col)
@@ -7,5 +18,8 @@ Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
 
 Vue.prototype.$message = Message

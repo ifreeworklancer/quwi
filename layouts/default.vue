@@ -1,5 +1,6 @@
 <template>
   <div>
+    <AppHeader />
     <Nuxt />
   </div>
 </template>
@@ -27,6 +28,7 @@ html {
 .container {
   width: 100%;
   max-width: 100%;
+  margin: 0 auto;
   padding: 0 15px;
 
   @media (min-width: 576px) {

@@ -15,6 +15,6 @@
 
 <script>
 export default {
-  middleware: 'login',
+  auth: 'guest',
 }
 </script>
