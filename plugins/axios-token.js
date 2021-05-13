@@ -3,7 +3,7 @@ export default function ({ $axios, $auth }) {
     const isLoggedIn = $auth.loggedIn
     const token = $auth.getToken('local')
     if (isLoggedIn) {
-      config.headers.common.Authorization = `Bear ${token}`
+      config.headers.common.Authorization = `Bearer ${token}`
     }
   })
 }
