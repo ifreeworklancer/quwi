@@ -57,10 +57,9 @@ export default {
           logout: false,
           user: false,
         },
-        tokenRequired: true,
-        tokenType: 'Bearer',
       },
     },
+    plugins: ['~/plugins/error-auth.js'],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
