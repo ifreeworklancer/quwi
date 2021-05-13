@@ -1,5 +1,5 @@
 <template>
-  <section class="auth">
+  <section class="section section--full-height section--center">
     <div class="container">
       <el-row>
         <el-col :span="24">
@@ -18,23 +18,3 @@ export default {
   middleware: 'login',
 }
 </script>
-
-<style lang="scss">
-.auth {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-
-  .page-title {
-    text-align: center;
-  }
-
-  .el-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-</style>

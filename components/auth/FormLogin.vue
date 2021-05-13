@@ -1,11 +1,6 @@
 <template>
-  <el-form
-    ref="formLogin"
-    :model="formData"
-    :rules="formRules"
-    class="form-auth"
-  >
-    <div class="form-auth-body">
+  <el-form ref="formLogin" :model="formData" :rules="formRules" class="form">
+    <div class="form-body">
       <el-form-item label="User name" prop="username">
         <el-input v-model="formData.username"></el-input>
       </el-form-item>
@@ -13,7 +8,7 @@
         <el-input v-model="formData.password" type="password"></el-input>
       </el-form-item>
     </div>
-    <div class="form-auth-footer">
+    <div class="form-footer">
       <el-button type="primary" :loading="isLoading" @click.prevent="sendForm">
         Login
       </el-button>
@@ -81,24 +76,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-.form-auth {
-  .el-form-item {
-    margin-bottom: 15px;
-
-    &__label {
-      width: 100%;
-      text-align: left;
-    }
-
-    &__content {
-      margin-left: 0;
-    }
-  }
-
-  &-body {
-    margin-bottom: 35px;
-  }
-}
-</style>

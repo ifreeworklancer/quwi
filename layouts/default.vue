@@ -50,9 +50,51 @@ html {
   }
 }
 
+.section {
+  &--full-height {
+    min-height: 100vh;
+  }
+
+  &--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .page-title {
+      text-align: center;
+    }
+
+    .el-row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
 .page-title {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 25px;
+}
+
+.form {
+  .el-form-item {
+    margin-bottom: 15px;
+
+    &__label {
+      width: 100%;
+      text-align: left;
+    }
+
+    &__content {
+      margin-left: 0;
+    }
+  }
+
+  &-body {
+    margin-bottom: 35px;
+  }
 }
 </style>
