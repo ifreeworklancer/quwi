@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fquwi\u002F_nuxt\u002Fstatic\u002F1620915373",layout:"default",error:a,state:a,serverRendered:false,routePath:"\u002F",config:{client_id:"frontend_app",client_secret:"secret",grant_type:"password",_app:{basePath:"\u002Fquwi\u002F",assetsPath:"\u002Fquwi\u002F_nuxt\u002F",cdnURL:a}}}}(null));
