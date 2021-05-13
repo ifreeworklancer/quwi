@@ -79,7 +79,6 @@ export default {
 
   router: {
     middleware: ['auth'],
-    base: 'quwi',
   },
 
   loading: {
