@@ -59,7 +59,7 @@ export default {
         },
       },
     },
-    plugins: ['~/plugins/error-auth.js'],
+    plugins: ['~/plugins/error-auth.js', '~/plugins/axios-token.js'],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
