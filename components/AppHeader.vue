@@ -25,6 +25,7 @@ export default {}
   width: 100%;
   padding: 10px 0;
   border-bottom: 1px solid #dcdfe6;
+  background: #fff;
 
   @media (min-width: 992px) {
     padding: 15px 0;

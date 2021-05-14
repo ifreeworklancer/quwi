@@ -1,5 +1,7 @@
 <template>
-  <section class="section section--full-height section--center">
+  <section
+    class="section section--full-height section--center section--paddingless"
+  >
     <div class="container">
       <el-row>
         <el-col :span="24">

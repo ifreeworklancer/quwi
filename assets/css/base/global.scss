@@ -45,6 +45,16 @@ html {
 }
 
 .section {
+  padding: 80px 0 40px;
+
+  @media (min-width: 992px) {
+    padding: 100px 0 50px;
+  }
+
+  &--paddingless {
+    padding: 0;
+  }
+
   &--full-height {
     min-height: 100vh;
   }
