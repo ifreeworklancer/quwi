@@ -11,6 +11,7 @@
     <div class="form-footer">
       <el-button type="primary" :loading="isLoading" @click.prevent="sendForm">
         Login
+        <i v-if="!isLoading" class="el-icon-arrow-right"></i>
       </el-button>
     </div>
   </el-form>
