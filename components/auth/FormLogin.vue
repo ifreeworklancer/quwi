@@ -61,10 +61,14 @@ export default {
             this.$auth.setToken('local', data.access_token)
             this.$auth.setRefreshToken('local', data.refresh_token)
           })
-          .catch(() => {
+          .catch(({ response }) => {
+            const errorMessage =
+              response && response.data.error
+                ? response.data.error.message
+                : 'Oops, something went wrong!'
             this.$message({
               type: 'error',
-              message: 'Oops, something went wrong!',
+              message: errorMessage,
               duration: 5000,
             })
           })
