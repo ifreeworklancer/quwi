@@ -2,9 +2,7 @@
   <section class="section section-error section--full-height section--center">
     <div class="container">
       <el-row>
-        <h1 v-if="error.statusCode === 404" class="page-title">
-          Page not found
-        </h1>
+        <h1 v-if="isNotFoundError" class="page-title">Page not found</h1>
         <h1 v-else class="page-title">An error occurred</h1>
         <el-button type="primary">
           <NuxtLink to="/">Home page</NuxtLink>
@@ -18,5 +16,10 @@
 export default {
   layout: 'error',
   props: ['error'],
+  computed: {
+    isNotFoundError() {
+      return this.error.statusCode === 404
+    },
+  },
 }
 </script>
