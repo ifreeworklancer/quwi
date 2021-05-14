@@ -2,7 +2,6 @@ import Vue from 'vue'
 import {
   Row,
   Col,
-  Icon,
   Button,
   Form,
   FormItem,
@@ -13,8 +12,6 @@ import {
   Message,
   Notification,
 } from 'element-ui'
-
-Vue.component(Icon.name, Icon)
 
 Vue.use(Row)
 Vue.use(Col)
