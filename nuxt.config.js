@@ -40,7 +40,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.BASE_URL,
+    baseURL: process.env.API_URL,
   },
 
   auth: {
@@ -75,7 +75,6 @@ export default {
 
   router: {
     middleware: ['auth'],
-    base: '/quwi/',
   },
 
   loading: {
@@ -84,8 +83,15 @@ export default {
     height: '2px',
   },
 
+  env: {
+    API_URL: process.env.API_URL,
+    CLIENT_ID: process.env.CLIENT_ID,
+    CLIENT_SECRET: process.env.CLIENT_SECRET,
+    GRANT_TYPE: process.env.GRANT_TYPE,
+  },
+
   publicRuntimeConfig: {
-    client_id: process.env.FRONTEND_APP,
+    client_id: process.env.CLIENT_ID,
     client_secret: process.env.CLIENT_SECRET,
     grant_type: process.env.GRANT_TYPE,
   },
