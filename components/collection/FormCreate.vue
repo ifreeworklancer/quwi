@@ -53,28 +53,27 @@ export default {
     sendForm() {
       this.isLoading = true
       this.$refs.formCollectionCreate.validate((valid) => {
-        if (valid) {
-          this.createCollection(this.formData)
-            .then(() => {
-              this.resetFormData()
-              this.$notify({
-                title: 'Success',
-                message: 'Collection created successful',
-                type: 'success',
-              })
-              this.isLoading = false
-            })
-            .catch(() => {
-              this.$message({
-                type: 'error',
-                message: 'Oops, something went wrong!',
-                duration: 5000,
-              })
-              this.isLoading = false
-            })
-        } else {
+        if (!valid) {
           this.isLoading = false
+          return
         }
+        this.createCollection(this.formData)
+          .then(() => {
+            this.resetFormData()
+            this.$notify({
+              title: 'Success',
+              message: 'Collection created successful',
+              type: 'success',
+            })
+          })
+          .catch(() => {
+            this.$message({
+              type: 'error',
+              message: 'Oops, something went wrong!',
+              duration: 5000,
+            })
+          })
+          .finally(() => (this.isLoading = false))
       })
     },
     resetFormData() {

@@ -52,24 +52,23 @@ export default {
     sendForm() {
       this.isLoading = true
       this.$refs.formLogin.validate((valid) => {
-        if (valid) {
-          this.userLogin(this.formData)
-            .then(({ data }) => {
-              this.$auth.setToken('local', data.access_token)
-              this.$auth.setRefreshToken('local', data.refresh_token)
-              this.isLoading = false
-            })
-            .catch(() => {
-              this.$message({
-                type: 'error',
-                message: 'Oops, something went wrong!',
-                duration: 5000,
-              })
-              this.isLoading = false
-            })
-        } else {
+        if (!valid) {
           this.isLoading = false
+          return
         }
+        this.userLogin(this.formData)
+          .then(({ data }) => {
+            this.$auth.setToken('local', data.access_token)
+            this.$auth.setRefreshToken('local', data.refresh_token)
+          })
+          .catch(() => {
+            this.$message({
+              type: 'error',
+              message: 'Oops, something went wrong!',
+              duration: 5000,
+            })
+          })
+          .finally(() => (this.isLoading = false))
       })
     },
   },
