@@ -6,6 +6,7 @@
         Logout
       </el-dropdown-item>
       <el-dropdown-item v-else command="login"> Login </el-dropdown-item>
+      <el-dropdown-item command="asdasd"> Login </el-dropdown-item>
     </el-dropdown-menu>
   </el-dropdown>
 </template>
@@ -20,7 +21,9 @@ export default {
       await this.$router.push('/login')
     },
     handleCommand(method) {
-      this[method]()
+      if (this[method]) {
+        this[method]()
+      }
     },
   },
 }
