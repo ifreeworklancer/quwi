@@ -66,18 +66,35 @@ export default {
               type: 'success',
             })
           })
-          .catch(() => {
-            this.$message({
-              type: 'error',
-              message: 'Oops, something went wrong!',
-              duration: 5000,
-            })
+          .catch(({ response }) => {
+            this.handleError(response)
           })
           .finally(() => (this.isLoading = false))
       })
     },
     resetFormData() {
       this.$refs.formCollectionCreate.resetFields()
+    },
+    handleError(response) {
+      const errors =
+        response && response.data.errors
+          ? response && response.data?.errors
+          : []
+      if (errors && errors.length) {
+        errors.forEach((item) => {
+          this.$message({
+            type: 'error',
+            message: item.message,
+            duration: 5000,
+          })
+        })
+      } else {
+        this.$message({
+          type: 'error',
+          message: 'Oops, something went wrong!',
+          duration: 5000,
+        })
+      }
     },
   },
 }
