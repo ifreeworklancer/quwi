@@ -6,7 +6,6 @@
         Logout
       </el-dropdown-item>
       <el-dropdown-item v-else command="login"> Login </el-dropdown-item>
-      <el-dropdown-item command="asdasd"> Login </el-dropdown-item>
     </el-dropdown-menu>
   </el-dropdown>
 </template>
