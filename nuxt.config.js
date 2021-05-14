@@ -18,7 +18,7 @@ export default {
     'element-ui/lib/theme-chalk/index.css',
     '~/assets/css/style.scss',
     'element-ui/lib/theme-chalk/fonts/element-icons.ttf',
-    'element-ui/lib/theme-chalk/element-icons.woff',
+    'element-ui/lib/theme-chalk/fonts/element-icons.woff',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
