@@ -2,7 +2,6 @@ import Vue from 'vue'
 import {
   Row,
   Col,
-  Icon,
   Button,
   Form,
   FormItem,
@@ -16,7 +15,6 @@ import {
 
 Vue.use(Row)
 Vue.use(Col)
-Vue.use(Icon)
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
